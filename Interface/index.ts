@@ -48,5 +48,5 @@ const printSummary = (item:Reportable):void => {
     
 }
 
-printVehicle(oldCivic)
+// printVehicle(oldCivic)
 printSummary(drink)
