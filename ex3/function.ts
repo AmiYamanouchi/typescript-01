@@ -142,29 +142,29 @@ const Exercise3 = () => {
     // • Once made generic, `pushToCollection` should be *generic* enough to operate
     //   on items and collections of any type while continuing to enforce that they match.
   
-    const numberCollection: number[] = []
-    const stringCollection: string[] = []
+//     const numberCollection: number[] = []
+//     const stringCollection: string[] = []
   
-    function pushToCollection(item:, collection) {
-      collection.push(item)
-      return collection
-    }
+//     function pushToCollection(item:, collection) {
+//       collection.push(item)
+//       return collection
+//     }
   
-    // Add some stuff to the collections
-    pushToCollection(false, stringCollection)
-    pushToCollection('hi', stringCollection)
-    pushToCollection([], stringCollection)
+//     // Add some stuff to the collections
+//     pushToCollection(false, stringCollection)
+//     pushToCollection('hi', stringCollection)
+//     pushToCollection([], stringCollection)
   
-    pushToCollection('1', numberCollection)
-    pushToCollection('2', numberCollection)
-    pushToCollection('3', numberCollection)
+//     pushToCollection('1', numberCollection)
+//     pushToCollection('2', numberCollection)
+//     pushToCollection('3', numberCollection)
   
-    const incrementedByTwo = numberCollection.map((num) => num + 2)
+//     const incrementedByTwo = numberCollection.map((num) => num + 2)
   
-    console.log(
-      '[Exercise 3.7]',
-      `[${incrementedByTwo}] should deeply equal [3,4,5]`
-    )
+//     console.log(
+//       '[Exercise 3.7]',
+//       `[${incrementedByTwo}] should deeply equal [3,4,5]`
+//     )
   }
   
   Exercise3()
